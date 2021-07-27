@@ -1,5 +1,5 @@
-if [[ -n $TOKEN_PICKLE_URL ]]; then
-	wget -q $TOKEN_PICKLE_URL -O /usr/src/app/token.pickle
+if [[ -n TOKEN_PICKLE_URL ]]; then
+	wget -q TOKEN_PICKLE_URL -O /usr/src/app/token.pickle
 fi
 
 if [[ -n $ACCOUNTS_ZIP_URL ]]; then
